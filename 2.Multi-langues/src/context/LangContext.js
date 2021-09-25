@@ -12,7 +12,7 @@ if (multiLangages.indexOf(nav) === -1){
 
 const ContextProvider = props =>{
     const [lang , setLang] = useState(nav)
-    console.log(lang);
+    // console.log(lang);
     const toggleLang = (changeLang)=>{
         setLang(changeLang)
     }

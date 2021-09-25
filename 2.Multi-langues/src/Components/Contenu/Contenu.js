@@ -5,7 +5,7 @@ import data from "../../assets/data"
 
 const Contenu = ()=>{
     const langue = useContext(Context)
-    console.log(langue);
+    // console.log(langue);
 return (
     <div className="content">
         <h1  className="title">{data[langue.lang].title}</h1>

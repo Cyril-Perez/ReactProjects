@@ -15,8 +15,7 @@ const MultiForm = ()=>{
         dietForm : "",
         foodStyle : [],
         allergies : [],
-        prefs : {
-            
+        prefs : {       
         }
     })
     //function me servant de nav avec l'index et de transfert de données avec data
