@@ -39,9 +39,9 @@ const InfiniteScroll = ()=>{
         })
     }
     //permettant d'aller chercher nos donnes
-    // useEffect(()=>{
-    //     infiniteFetchData()
-    // },[pageIndex])
+    useEffect(()=>{
+        infiniteFetchData()
+    },[pageIndex])
 
     const handleSearch = e =>{
         e.preventDefault()
